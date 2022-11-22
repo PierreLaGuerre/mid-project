@@ -370,6 +370,7 @@ line-height: 47px;
 color: #292E47;
 margin-left: 240px;
 margin-top: 200px;
+margin-bottom: 70px;
 }
 
 .services-container {
@@ -399,13 +400,11 @@ margin-left: 240px
     margin-left: 40px
     }
 
-.services-icon-1 {
-background: #ECF7FF;
-width: 40px;
-height: 40px;
-padding: 20px;
-border-radius: 49.6px;
-}
+    .services-icons {
+    
+      width: 40px;
+      height: 40px;
+  }
 
 .services-heading-card {
 font-weight: 500;
@@ -424,7 +423,7 @@ font-size: 20px;
 line-height: 150%;
 color: #6B708D;
 margin-left: 20px;
-margin-bottom: 60px;
+margin-bottom: 36px;
 }
 
 .services-link {
@@ -437,24 +436,85 @@ margin-top: 500px;
 margin-left: 20px;
 }
 
-.services-icon-2 {
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   background: #ECF7FF;
-  width: 40px;
-  height: 40px;
-  padding: 20px;
+  width: 80px;
+  height: 80px;
   border-radius: 49.6px;
-  }
-
-  .services-icon-3 {
-  background: #ECF7FF;
-  width: 40px;
-  height: 40px;
-  padding: 20px;
-  border-radius: 49.6px;
-
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
+.newsletter-container {
+  width: 1320px;
+  height: 500px;
+  background: #FFC600; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 130px;
+  
+}
 
+.newsletter-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #292E47;  
+  margin-top: 136px;
+} 
+
+.newsletter-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #292E47;  
+  margin-top: 20px;
+  
+}
+
+.email-subscribe-container {
+  margin-top: 50px;
+  display: flex;
+}
+  .email-box {
+width: 393px;
+height: 80px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url(images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 30px 25px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+  }
+
+ 
+
+  .subscribe-botton {
+box-sizing: border-box;
+width: 198px;
+height: 82px;
+justify-content: center;
+align-items: center;
+padding: 15px 37px;
+gap: 10px;
+background: #072AC8;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+text-align: center;
+color: #FFFFFF;
+margin-left: 20px;
+border: 1px solid #072AC8;
+  }
 }
 
 
@@ -868,25 +928,92 @@ margin: 0;
   text-decoration: none;
     margin-left: 20px;
   }
-  
-  .services-icon-2 {
+  .services-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     background: #ECF7FF;
-    width: 40px;
-    height: 40px;
-    padding: 20px;
+    width: 80px;
+    height: 80px;
     border-radius: 49.6px;
     margin-left: 30px;
-  margin-top: 40px;
-    }
+    margin-top: 40px;
+  }
   
-    .services-icon-3 {
-    background: #ECF7FF;
+  .services-icons {
+    
     width: 40px;
     height: 40px;
-    padding: 20px;
-    border-radius: 49.6px;
-    margin-left: 30px;
+}
+
+.newsletter-container {
+  width: 100%;
+  height: 540px;
+  background: #FFC600; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 40px;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 47px;
+  color: #292E47;  
+  margin-top: 40px;
+  text-align: center;
+} 
+
+.newsletter-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #292E47;  
+  margin-top: 20px;
+  
+}
+
+.email-subscribe-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+  .email-box {
+    width: 198px;
+    height: 82px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+    background-image: url(images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 25px;
+    text-align:center;
+    border: 1px solid #FFFFFF;
   }
 
+ 
+
+  .subscribe-botton {
+box-sizing: border-box;
+width: 200px;
+height: 82px;
+justify-content: center;
+align-items: center;
+padding: 15px 37px;
+gap: 10px;
+background: #072AC8;
+font-weight: 500;
+font-size: 17px;
+line-height: 130%;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid #072AC8;
+margin-top: 20px;
+  }
 }
+
+
+
