@@ -589,6 +589,19 @@ line-height: 150%;
   color: #6B708D; 
 }
 
+.cdate {
+  display: flex;
+}
+  .completed {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: right;
+    color: #292E47;
+    margin-right: 5px;
+  }
+
+
 .date {
 font-weight: 400;
 font-size: 20px;
@@ -1321,7 +1334,7 @@ width: 90vw;
 display: flex;
 flex-direction: column;
 width: 90%;
-padding-left: 10px;
+padding-left: 0px;
 
 }
 
@@ -1372,6 +1385,9 @@ padding-left: 10px;
 
 .form-button {
   width: 330px;
+}
+.footer-container {
+  margin-left: -15px;
 }
 
 }
