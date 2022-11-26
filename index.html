@@ -15,7 +15,7 @@
         <li class="li2">Projects</li>
         <li class="li3">Services</li>
       </ul>
-      <button class="navbar-button">Contact Us</button>
+      <input type="button" onclick="location.href='contact-us.html';" ; class="navbar-button" value="Contact Us">
     </section>
     <section class="hero-container">
       <div class="hero-left">
@@ -26,7 +26,8 @@
         </p>
         <div class="hero-buttons">
           <p class="hero-p-left">See our work</p>
-          <button class="hero-button-right">Get in touch</button>
+          <input type="button" onclick="location.href='contact-us.html';" ; class="hero-button-right" value="Get in touch">
+    
         </div>
       </div>
       <div class="hero-right">
@@ -73,17 +74,17 @@
     <section class="projects-container">
       <h2 class="projects-heading">Recent Projects</h2>
       <div class="project-list-wrap">
-        <div class="project-1-card">
+        <div class="project-1-card card">
           <img class="project-1-image" src="images/1.jpg" />
           <div class="project-1-content">
             <p class="project-1-title">Simplify</p>
             <p class="project-1-description">UI Design & App Development</p>
-            <a href="/projects/simplify" target="_blank" class="project-link"
+            <a href="project.html" target="_blank" class="project-link"
               >Learn More</a
             >
           </div>
         </div>
-        <div class="project-2-card">
+        <div class="project-2-card card">
           <img class="project-2-image" src="images/2.jpg" />
           <div class="project-2-content">
             <p class="project-2-title">Dashcoin</p>
@@ -93,7 +94,7 @@
             >
           </div>
         </div>
-        <div class="project-3-card">
+        <div class="project-3-card card">
           <img class="project-3-image" src="images/3.jpg" />
           <div class="project-3-content">
             <p class="project-3-title">Vectorify</p>
@@ -172,12 +173,16 @@
 <div class="newsletter-container">
 <h3 class="newsletter-title">Do you have any questions?</h3>
 <p class="newsletter-subtitle">Let us help you!</p>
+<form>
 <div class="email-subscribe-container">
 <input type="email" class="email-box" placeholder="Enter your email"> 
-<button class="subscribe-botton">Subscribe</button>
+<button type="button" class="subscribe-botton">Subscribe</button>
 </div>
-</div>
-</div>
+<div class="error-div">La email no es valida!</div>
+<div class="ok-message">Gracias!</div>
+</form>
+
+
 </section>
 <footer class="footer-container">
 <div  class="logo-wrap">
@@ -193,5 +198,6 @@
   <a href="#" target="_blank" class="footer-link">Privacy Policy</a>
 </div>
 </footer>
+<script src="circle.js"></script>
   </body>
 </html>

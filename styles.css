@@ -59,6 +59,7 @@ body {
   color: #FFFFFF;
   border: 1px solid #072ac8;
   margin-top: 70px;
+  cursor: pointer;
 }
 .hero-container {
   display: flex;
@@ -110,6 +111,7 @@ body {
   margin-top: 40px;
   text-align: center;
   border: 1px solid #072ac8;
+  cursor: pointer;
 }
 
 .hero-right {
@@ -172,6 +174,7 @@ body {
 .project-1-image {
   width: 340px;
   height: 240px;
+  object-fit: cover;
 }
 
 .project-1-title {
@@ -202,6 +205,8 @@ body {
 .project-2-image {
   width: 340px;
   height: 240px;
+  object-fit: cover;
+  
 }
 
 .project-2-title {
@@ -232,6 +237,7 @@ body {
 .project-3-image {
   width: 340px;
   height: 240px;
+  object-fit: cover;
 }
 .project-3-title {
   font-weight: 500;
@@ -491,17 +497,20 @@ height: 80px;
     font-size: 17px;
     line-height: 130%;
     text-align: center;
-    color: #FFFFFF;
+    color: black;
     background-image: url(images/mail.svg);
     background-repeat: no-repeat;
     background-position: 30px 25px;
     text-align: center;
     border: 1px solid #FFFFFF;
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   }
 
  
 
-  .subscribe-botton {
+.subscribe-botton {
 box-sizing: border-box;
 width: 198px;
 height: 82px;
@@ -517,8 +526,27 @@ text-align: center;
 color: #FFFFFF;
 margin-left: 20px;
 border: 1px solid #072AC8;
+cursor: pointer;
   }
 }
+
+.error-div {
+ width: 200px;
+ height: 40px;
+ background: red;
+ display: none;
+ color: #FFFFFF;
+}
+
+.ok-message {
+  width: 200px;
+  height: 40px;
+  background: green;
+  display: none;
+  color: #FFFFFF;
+}
+
+
 .footer-container {
   display: flex;
   margin-top: 170px;
@@ -1208,7 +1236,7 @@ margin: 0;
     font-size: 17px;
     line-height: 130%;
     text-align: right;
-    color: #FFFFFF;
+    color: black;
     background-image: url(images/mail.svg);
     background-repeat: no-repeat;
     background-position: 5px 25px;
@@ -1234,7 +1262,10 @@ text-align: center;
 color: #FFFFFF;
 border: 1px solid #072AC8;
 margin-top: 20px;
+cursor: pointer;
   }
+
+
 
 .footer-container {
   margin-top: 50px;
@@ -1276,6 +1307,10 @@ margin-top: 20px;
 .footer-link {
   font-size: 16px;
 }
+
+.date {
+  padding-top: 20px;
+  }
 
 .project-article-container {
   width: 90vw;
