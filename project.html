@@ -11,11 +11,12 @@
     <section class="container-navbar">
       <img class="navbar-logo" src="images/circle.svg" alt="Circle's logo" />
       <ul class="navbar-list">
-        <li class="li-home">Home</li>
+        <li onclick="location.href='index.html';" class="li-home">Home</li>
         <li class="li2">Projects</li>
         <li class="li3">Services</li>
       </ul>
-      <button class="navbar-button">Contact Us</button>
+      <input type="button" onclick="location.href='contact-us.html';" ; class="navbar-button" value="Contact Us">
+      <img class="hamb-menu" src="images/icons8-hamburger-menu-24.png">
     </section>
     <section class="project-article-container">
       <h1 class="article-heading">Simplify</h1>
@@ -90,6 +91,8 @@
         <input type="email" class="email-box" placeholder="Enter your email"> 
         <button class="subscribe-botton">Subscribe</button>
         </div>
+        <div class="error-div">La email no es valida!</div>
+<div class="ok-message">Gracias!</div>
         </div>
         </div>
         </section>

@@ -11,20 +11,22 @@
     <section class="container-navbar">
       <img class="navbar-logo" src="images/circle.svg" alt="Circle's logo" />
       <ul class="navbar-list">
-        <li class="li-home">Home</li>
+        <li onclick="location.href='index.html';" class="li-home">Home</li>
         <li class="li2">Projects</li>
         <li class="li3">Services</li>
       </ul>
-      <button class="navbar-button">Contact Us</button>
+      <input type="button" onclick="location.href='contact-us.html';" ; class="navbar-button" value="Contact Us">
+      <img class="hamb-menu" src="images/icons8-hamburger-menu-24.png">
     </section>
     <section class="contact-form-container">
       <h1 class="contact-heading">Contact Us</h1>
-      <form>
+      <form name="myForm">
         <div class="contact-form-wrapper">
           <div class="full-name-wrap">
             <label id="form-text">Full name*</label>
             <input
               type="text"
+              name="fname"
               placeholder="Enter your full name"
               class="full-name-inp"
             />
@@ -75,5 +77,6 @@
         <a href="#" target="_blank" class="footer-link">Privacy Policy</a>
       </div>
     </footer>
+    <script src="circle.js"></script>
   </body>
 </html>
