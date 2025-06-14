@@ -1,4 +1,4 @@
-# 🌐 Rick & Morty Landing Page — IronHack Frontend Bootcamp Project
+# 🌐 Circle Landing Page — IronHack Frontend Bootcamp Mid Project
 
 Este proyecto fue desarrollado como parte de una **prueba práctica intermedia** durante el bootcamp de **Desarrollo Frontend en IronHack**. El objetivo era construir una landing page desde cero con HTML, CSS y JavaScript moderno, aplicando diseño responsive, validación de formularios y consumo de una **API externa real**.
 
