@@ -27,6 +27,7 @@ Este proyecto fue desarrollado como parte de una **prueba práctica intermedia**
 
 ## 📸 Capturas
 
+![imagen](https://github.com/user-attachments/assets/dcca13b3-88aa-4a13-bd98-bcf9f26187dc)
 
 ---
 
